@@ -1,0 +1,6 @@
+﻿popgenml.data.stats.sfs
+=======================
+
+.. currentmodule:: popgenml.data.stats
+
+.. autofunction:: sfs

@@ -1,0 +1,6 @@
+﻿popgenml.data.stats.ld\_stats
+=============================
+
+.. currentmodule:: popgenml.data.stats
+
+.. autofunction:: ld_stats

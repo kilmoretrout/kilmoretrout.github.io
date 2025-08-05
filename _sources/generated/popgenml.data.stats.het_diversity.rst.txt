@@ -1,0 +1,6 @@
+﻿popgenml.data.stats.het\_diversity
+==================================
+
+.. currentmodule:: popgenml.data.stats
+
+.. autofunction:: het_diversity

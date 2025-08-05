@@ -1,0 +1,6 @@
+﻿popgenml.data.stats.theta\_pi
+=============================
+
+.. currentmodule:: popgenml.data.stats
+
+.. autofunction:: theta_pi

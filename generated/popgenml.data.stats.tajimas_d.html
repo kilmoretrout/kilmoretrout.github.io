@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>popgenml.data.stats.tajimas_d &#8212; popgenml 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css?v=def86cc0" />
+    
+    <script src="../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="popgenml.data.stats.ld_stats" href="popgenml.data.stats.ld_stats.html" />
+    <link rel="prev" title="popgenml.data.stats.watterson_theta" href="popgenml.data.stats.watterson_theta.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="popgenml.data.stats.ld_stats.html" title="popgenml.data.stats.ld_stats"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="popgenml.data.stats.watterson_theta.html" title="popgenml.data.stats.watterson_theta"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">popgenml 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../popgenml.html" accesskey="U">popgenml</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">popgenml.data.stats.tajimas_d</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="popgenml-data-stats-tajimas-d">
+<h1>popgenml.data.stats.tajimas_d<a class="headerlink" href="#popgenml-data-stats-tajimas-d" title="Link to this heading"></a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="popgenml.data.stats.tajimas_d">
+<span class="sig-prename descclassname"><span class="pre">popgenml.data.stats.</span></span><span class="sig-name descname"><span class="pre">tajimas_d</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ploidy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#popgenml.data.stats.tajimas_d" title="Link to this definition"></a></dt>
+<dd><p>Compute Tajima’s D, a neutrality test statistic comparing Watterson’s theta and nucleotide diversity.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>np.ndarray</em>) – Binary haplotype array of shape (n_haplotypes, n_sites).</p></li>
+<li><p><strong>pos</strong> (<em>np.ndarray</em>) – Array of integer genomic positions of shape (n_sites,).</p></li>
+<li><p><strong>ploidy</strong> (<em>int</em>) – Number of chromosomes per individual (default is 2).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Tajima’s D statistic for the region.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">popgenml.data.stats.tajimas_d</a><ul>
+<li><a class="reference internal" href="#popgenml.data.stats.tajimas_d"><code class="docutils literal notranslate"><span class="pre">tajimas_d()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="popgenml.data.stats.watterson_theta.html"
+                          title="previous chapter">popgenml.data.stats.watterson_theta</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="popgenml.data.stats.ld_stats.html"
+                          title="next chapter">popgenml.data.stats.ld_stats</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/generated/popgenml.data.stats.tajimas_d.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="popgenml.data.stats.ld_stats.html" title="popgenml.data.stats.ld_stats"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="popgenml.data.stats.watterson_theta.html" title="popgenml.data.stats.watterson_theta"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">popgenml 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../popgenml.html" >popgenml</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">popgenml.data.stats.tajimas_d</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Dylan Ray.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    </div>
+  </body>
+</html>

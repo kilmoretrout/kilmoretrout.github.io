@@ -1,0 +1,6 @@
+﻿popgenml.data.stats.tajimas\_d
+==============================
+
+.. currentmodule:: popgenml.data.stats
+
+.. autofunction:: tajimas_d

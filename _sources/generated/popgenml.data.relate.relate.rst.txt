@@ -1,0 +1,6 @@
+﻿popgenml.data.relate.relate
+===========================
+
+.. currentmodule:: popgenml.data.relate
+
+.. autofunction:: relate

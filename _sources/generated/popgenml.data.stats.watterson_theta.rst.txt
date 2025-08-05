@@ -1,0 +1,6 @@
+﻿popgenml.data.stats.watterson\_theta
+====================================
+
+.. currentmodule:: popgenml.data.stats
+
+.. autofunction:: watterson_theta

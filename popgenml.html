@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>popgenml &#8212; popgenml 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=def86cc0" />
+    
+    <script src="_static/jquery.js?v=5d32c60e"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="popgenml.data.stats.sfs" href="generated/popgenml.data.stats.sfs.html" />
+    <link rel="prev" title="popgenml documentation" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="generated/popgenml.data.stats.sfs.html" title="popgenml.data.stats.sfs"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="popgenml documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">popgenml 0.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">popgenml</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="popgenml">
+<span id="id1"></span><h1>popgenml<a class="headerlink" href="#popgenml" title="Link to this heading"></a></h1>
+<p>API reference.</p>
+<section id="stats">
+<h2>Stats<a class="headerlink" href="#stats" title="Link to this heading"></a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.stats.sfs.html#popgenml.data.stats.sfs" title="popgenml.data.stats.sfs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.stats.sfs</span></code></a>(x)</p></td>
+<td><p>Compute the site frequency spectrum (SFS) from binary haplotype data.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.stats.theta_pi.html#popgenml.data.stats.theta_pi" title="popgenml.data.stats.theta_pi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.stats.theta_pi</span></code></a>(x, pos)</p></td>
+<td><p>Compute nucleotide diversity (π), the average number of pairwise differences per site.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.stats.watterson_theta.html#popgenml.data.stats.watterson_theta" title="popgenml.data.stats.watterson_theta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.stats.watterson_theta</span></code></a>(x, pos)</p></td>
+<td><p>Compute Watterson's theta, an estimator of genetic diversity based on segregating sites.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.stats.tajimas_d.html#popgenml.data.stats.tajimas_d" title="popgenml.data.stats.tajimas_d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.stats.tajimas_d</span></code></a>(x, pos[, ploidy])</p></td>
+<td><p>Compute Tajima's D, a neutrality test statistic comparing Watterson's theta and nucleotide diversity.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.stats.ld_stats.html#popgenml.data.stats.ld_stats" title="popgenml.data.stats.ld_stats"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.stats.ld_stats</span></code></a>(x[, ploidy])</p></td>
+<td><p>Compute the mean and standard deviation of pairwise linkage disequilibrium (LD) using Rogers-Huff's r.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.stats.het_diversity.html#popgenml.data.stats.het_diversity" title="popgenml.data.stats.het_diversity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.stats.het_diversity</span></code></a>(x[, ploidy])</p></td>
+<td><p>Compute the mean and standard deviation of observed heterozygosity across sites.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="functions-conversions">
+<h2>Functions / Conversions<a class="headerlink" href="#functions-conversions" title="Link to this heading"></a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.functions.newick_to_tree.html#popgenml.data.functions.newick_to_tree" title="popgenml.data.functions.newick_to_tree"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.newick_to_tree</span></code></a>(string, *)</p></td>
+<td><p>Create a tree sequence representation of the specified newick string.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.functions.tree_to_graph.html#popgenml.data.functions.tree_to_graph" title="popgenml.data.functions.tree_to_graph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.tree_to_graph</span></code></a>(tree)</p></td>
+<td><p>Convert a TSKit tree into a node feature array and edge list (graph representation).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.functions.graph_to_tree.html#popgenml.data.functions.graph_to_tree" title="popgenml.data.functions.graph_to_tree"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.graph_to_tree</span></code></a>(x, edges)</p></td>
+<td><p>Convert node features and edges into a TSKit tree.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.functions.distmat_to_tree.html#popgenml.data.functions.distmat_to_tree" title="popgenml.data.functions.distmat_to_tree"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.distmat_to_tree</span></code></a>(D[, ...])</p></td>
+<td><p>Construct a TSKit tree from a distance matrix using hierarchical clustering.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.functions.tree_to_distmat.html#popgenml.data.functions.tree_to_distmat" title="popgenml.data.functions.tree_to_distmat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.tree_to_distmat</span></code></a>(tree)</p></td>
+<td><p>Convert a TSKit tree into a condensed genealogical distance matrix.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.functions.pad_sequences.html#popgenml.data.functions.pad_sequences" title="popgenml.data.functions.pad_sequences"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.pad_sequences</span></code></a>(sequences)</p></td>
+<td><p>Pad a list of 2D arrays (sequences) to the same number of rows (sites) using a given padding value.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.functions.to_unique.html#popgenml.data.functions.to_unique" title="popgenml.data.functions.to_unique"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.to_unique</span></code></a>(X)</p></td>
+<td><p>Identify unique site patterns across a genotype matrix and compute their frequencies.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/popgenml.data.functions.seriate_spectral.html#popgenml.data.functions.seriate_spectral" title="popgenml.data.functions.seriate_spectral"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.functions.seriate_spectral</span></code></a>(x, C)</p></td>
+<td><p>Reorder rows in a matrix using spectral seriation (Fiedler vector approach).</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="relate">
+<h2>Relate<a class="headerlink" href="#relate" title="Link to this heading"></a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/popgenml.data.relate.relate.html#popgenml.data.relate.relate" title="popgenml.data.relate.relate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">popgenml.data.relate.relate</span></code></a>(X, sites, ...[, ...])</p></td>
+<td><p>Run RELATE (a genealogy-based inference method) on simulated or empirical binary haplotype data.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">popgenml</a><ul>
+<li><a class="reference internal" href="#stats">Stats</a></li>
+<li><a class="reference internal" href="#functions-conversions">Functions / Conversions</a></li>
+<li><a class="reference internal" href="#relate">Relate</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="index.html"
+                          title="previous chapter">popgenml documentation</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="generated/popgenml.data.stats.sfs.html"
+                          title="next chapter">popgenml.data.stats.sfs</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/popgenml.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="generated/popgenml.data.stats.sfs.html" title="popgenml.data.stats.sfs"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="popgenml documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">popgenml 0.1 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">popgenml</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Dylan Ray.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    </div>
+  </body>
+</html>

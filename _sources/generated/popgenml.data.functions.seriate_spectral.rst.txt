@@ -1,0 +1,6 @@
+﻿popgenml.data.functions.seriate\_spectral
+=========================================
+
+.. currentmodule:: popgenml.data.functions
+
+.. autofunction:: seriate_spectral

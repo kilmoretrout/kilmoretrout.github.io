@@ -1,0 +1,6 @@
+﻿popgenml.data.functions.to\_unique
+==================================
+
+.. currentmodule:: popgenml.data.functions
+
+.. autofunction:: to_unique

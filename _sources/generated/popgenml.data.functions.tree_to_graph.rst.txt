@@ -1,0 +1,6 @@
+﻿popgenml.data.functions.tree\_to\_graph
+=======================================
+
+.. currentmodule:: popgenml.data.functions
+
+.. autofunction:: tree_to_graph

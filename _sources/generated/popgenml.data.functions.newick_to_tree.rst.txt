@@ -1,0 +1,6 @@
+﻿popgenml.data.functions.newick\_to\_tree
+========================================
+
+.. currentmodule:: popgenml.data.functions
+
+.. autofunction:: newick_to_tree
